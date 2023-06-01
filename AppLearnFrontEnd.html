@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+      justify-content:center ;
+      align-items: center;
+        }
+  </style>
+</head>
+<body>
+  <h2></h2>
+
+    <button
+    style="margin: 50px; height: 50px; width: 100px; color: aqua;"
+      id="botao-pt"
+      onClick="document.getElementById('paragrafo1').innerHTML='HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores, além disso documentos HTML são arquivos que terminam com uma extensão .html ou .htm. Um navegador lê o arquivo HTML e renderiza o seu conteúdo para que os usuários da internet possam vê-lo.'"
+    >
+      HTML
+    </button>
+
+    <button
+    style="margin: 50px; height: 50px; width: 100px;color: rgb(162, 0, 255);"
+      id="botao-en"
+      onClick="document.getElementById('paragrafo2').innerHTML='CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.'"
+    >
+      CSS
+    </button>
+
+    <button
+    style="margin: 50px; height: 50px; width: 100px;color: rgb(0, 255, 0);"
+      id="botao-es"
+      onClick="document.getElementById('paragrafo3').innerHTML='JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática.'"
+    >
+      Javascript
+    </button>
+
+    <button
+    style="margin: 50px; height: 50px; width: 100px;color: rgb(255, 51, 0);"
+      id="botao-fr"
+      onClick="document.getElementById('paragrafo4').innerHTML='A sigla DOM significa Document Object Model, que em português significa Modelo de Documento por Objetos. Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web.'"
+    >
+      DOM
+    </button>
+
+    <p id="paragrafo1"></p>
+    <p id="paragrafo2"></p>
+    <p id="paragrafo3"></p>
+    <p id="paragrafo4"></p>
+</body>
+</html>
